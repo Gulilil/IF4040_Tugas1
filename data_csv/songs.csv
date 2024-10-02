@@ -1,0 +1,962 @@
+id,album_id,title,is_title_track,duration
+1,1,JACKPOT,1,158
+2,1,PONYTAIL (KOR ver.),0,169
+3,1,After Party,0,160
+4,1,Be My Love,0,205
+5,1,CIRCU,0,195
+6,1,Across The Stars,0,196
+7,3,Super Lady,1,152
+8,3,Revenge,0,144
+9,3,Doll,0,153
+10,3,Vision,0,160
+11,3,7 Days,0,198
+12,3,나는 아픈 건 딱 질색이니까 (Fate),0,161
+13,3,Rollie,0,163
+14,3,Wife,0,121
+15,5,Lovers or Enemies,1,162
+16,5,그림자 (My name is shadow),0,197
+17,7,첫 만남은 계획대로 되지 않아 (plot twist),1,152
+18,7,unplugged boy,0,188
+19,7,First hooky,0,209
+20,7,BFF,0,166
+21,7,Oh Mymy : 7s,0,189
+22,8,UGLY,1,201
+23,8,SYRUP,0,203
+24,8,K.O. (Keep On),0,171
+25,8,Chase,0,168
+26,8,Festa,0,189
+27,10,WHIS,0,212
+28,10,GRAB ME,1,196
+29,10,TRAVELER,0,192
+30,10,ALL NIGH,0,184
+31,10,ILY (I LOVE YOU),0,232
+32,12,DASH,1,165
+33,12,Soñar (Breaker),0,173
+34,12,Run For Roses,0,215
+35,12,BOOM,0,175
+36,12,Passionfruit,0,160
+37,12,XOXO,0,162
+38,12,Break The Wall,0,204
+39,14,Time Machine,0,142
+40,14,너를 볼 때면(HOPE),0,134
+41,14,Sad Denial,0,177
+42,14,Anymore,0,125
+43,15,"Baby, Maybe Crazy",0,165
+44,15,TA-DA!,1,195
+45,15,IF U KNOW U KNOW (SUHYE Solo),0,207
+46,15,TWENTY TWENTY (Korean ver ) (MiU Solo),0,177
+47,15,TWENTY TWENTY (Japanese ver ) (MiU Solo),0,158
+48,15,IF U KNOW U KNOW (Guitar ver ),0,185
+49,15,TWENTY TWENTY (Korean ver ) (E Piano ver ),0,175
+50,15,"Baby, Maybe Crazy (Accapella ver )",0,171
+51,15,TA-DA! (Accapella ver ),0,128
+52,15,IF U KNOW U KNOW (Accapella ver ),0,187
+53,15,TWENTY TWENTY (Korean ver ) (Accapella ver ),0,192
+54,15,TWENTY TWENTY (Japanese ver ) (Accapella ver ),0,153
+55,15,"Baby, Maybe Crazy (Instrumental)",0,139
+56,15,TA-DA! (Instrumental),0,173
+57,15,IF U KNOW U KNOW (Instrumental),0,152
+58,15,TWENTY TWENTY (Instrumental),0,171
+59,15,IF U KNOW U KNOW (Guitar Instrumental),0,133
+60,15,TWENTY TWENTY (E Piano Instrumental),0,123
+61,19,THE GAM,0,170
+62,19,RU-PUM PUM,0,127
+63,19,NOM,0,178
+64,19,WE HER,0,170
+65,19,GLOW,0,128
+66,22,비보라 (BIBORA),1,194
+67,22,Midnight Sun,0,211
+68,22,Domino,0,184
+69,22,Strings,0,212
+70,22,Morning Coffee,0,220
+71,22,Superconductor,0,167
+72,23,BORN TO B,0,178
+73,23,UNTOUCHABLE,1,194
+74,23,Mr. Vampire,0,170
+75,23,Dynamite,0,169
+76,23,Crown On My Head (YEJI Solo),0,192
+77,23,Blossom (LIA Solo),0,194
+78,23,Run Away (RYUJIN Solo),0,216
+79,23,Mine (CHAERYEONG Solo),0,168
+80,23,"Yet, but (YUNA Solo)",0,205
+81,23,Escalator,0,200
+82,27,REWIND,1,189
+83,27,시간을 지나 마주한 너 (BACK TO YOU),0,227
+84,27,PAUS,0,159
+85,27,네가 내 이름을 부를 때 (WHEN YOU CALL MY NAME),0,175
+86,27,이별은 없는 거야 (STILL IN MY HEART),0,163
+87,28,Down,0,190
+88,28,Rebel,1,164
+89,28,Rodeo,0,176
+90,28,Jungle,0,181
+91,28,Life’s A Dance,0,181
+92,28,Fix It (ft.DINDIN) (U-KNOW Solo),0,189
+93,28,Take My Breath Away (CHANGMIN Solo),0,191
+94,28,Promise,0,199
+95,28,The Way U Are (Unplugged ver.),0,155
+96,28,빛나는 계절 (Starlight),0,211
+97,29,Y  Park,0,121
+98,29,"Y  Park, Black Eyed Pilseung, Jeon Gun, e one, earattack, Dahyun, Chaeyoung, Nayeon, Jihyo, Jeongyeon, Hyelim, Jowul etc",0,157
+99,29,"one, earattack, Fox Stevenson, Cazzi Opeia etc",0,147
+100,29,"one, earattack, Yooki etc",0,142
+101,35,WE KNOW,0,229
+102,35,Emergency,0,178
+103,35,미친 폼 (Crazy Form),1,198
+104,35,ARRIBA,0,217
+105,35,Silver Light,0,230
+106,35,Crescent Part.2,0,54
+107,35,꿈날 (Dreamy Day),0,206
+108,35,"MATZ (HONGJOONG, SEONGHWA)",0,206
+109,35,"IT’s You (YEOSANG, SAN, WOOYOUNG)",0,209
+110,35,"Youth (YUNHO, MINGI)",0,209
+111,35,Everything (JONGHO),0,226
+112,35,FIN : W,0,183
+113,39,Ghost Ridah (Wow Wow),0,210
+114,39,What The Hell,1,186
+115,39,"겁이나 (Me, Me & You)",0,188
+116,39,Slush,0,163
+117,39,쏘아 올려 (Fireworks),0,180
+118,42,멋진 거 (Hot Stuff),0,196
+119,42,좋겠다 (Must Be Nice),1,196
+120,42,G.O.A.,0,168
+121,42,RUSH IN 4 U,0,214
+122,42,진행중 (Loading),0,196
+123,42,illusion,0,190
+124,43,Must Have Love,1,196
+125,43,Mayday,0,180
+126,43,우린 뭐 없이도 (My Way),0,162
+127,43,Must Have Love (English ver.) (Duet),0,172
+128,45,Get it on,0,196
+129,45,Potential,1,218
+130,45,Get it on (English ver.),0,196
+131,45,Potential (English ver.),0,218
+132,47,Intro : This My Fashion,0,68
+133,47,OOTD,1,176
+134,47,Rising,0,197
+135,47,Shatter,0,168
+136,47,We Are Young,0,220
+137,52,Run,0,162
+138,52,ODD-VENTURE,1,195
+139,52,Pop Star,0,187
+140,52,Treasure,0,178
+141,52,Loosen Up,0,204
+142,52,Cruise,0,192
+143,52,W.A.T.1 (English ver.),0,183
+144,53,Amnesia,1,178
+145,53,Chemical,0,186
+146,53,라일락 (LILAC),0,189
+147,53,SAVAG,0,171
+148,53,If You Come Tonight,0,195
+149,54,WATCH IT,1,179
+150,54,"덫 Rat In The Trap (SANGYEON, JACOB, KEVIN, NEW, JU HAKNYEON)",0,200
+151,54,"Honey (SUNWOO, ERIC)",0,168
+152,54,Bad Luck,0,178
+153,54,CRYING & LAUGHTER,0,194
+154,54,Escape,0,206
+155,56,Mortal,0,227
+156,56,Sweet Venom,1,148
+157,56,Still Monster,0,186
+158,56,멀어 (Blind),0,198
+159,56,Orange Flower (You Complete Me),0,180
+160,56,Sweet Venom (English ver.),0,148
+161,56,Sweet Venom (ft.Bella Porch) (Digital ONLY),0,148
+162,58,On And On,1,191
+163,58,Sweet & Sour,0,196
+164,58,Sheesh,0,192
+165,59,Chill Kill,1,214
+166,59,Knock Knock (Who’s There?),0,201
+167,59,Underwater,0,205
+168,59,Will I Ever See You Again?,0,191
+169,59,Nightmare,0,205
+170,59,Iced Coffee,0,198
+171,59,One Kiss,0,199
+172,59,Bulldozer,0,160
+173,59,Wings,0,223
+174,59,풍경화 (Scenery),0,209
+175,16,MADELEINE (마들렌),0,209
+176,16,MADELEINE – Instrumental,0,200
+177,16,MADELEINE – Accapella,0,192
+178,63,"Title of this album, ‘YESSIR’ includes a vibrant drum line and magnificent brass  The genre of the songs is based on a electro dance pop genre based on 808 base hip-hop",0,173
+179,64,MEGAVERS,0,185
+180,64,락 (樂) (LALALALA),1,182
+181,64,사각지대 (BLIND SPOT),0,200
+182,64,COMFLEX,0,172
+183,64,가려줘 (Cover Me),0,191
+184,64,Leave,0,219
+185,64,Social Path (ft.LiSA) (Korean ver.),0,197
+186,64,락 (樂) (LALALALA) (Rock ver.),0,187
+187,74,Drama,1,214
+188,74,Trick Or Trick,0,175
+189,74,Don’t Blink,0,169
+190,74,Hot Air Ballon,0,198
+191,74,YOLO,0,189
+192,74,You,0,203
+193,74,Better Things,0,203
+194,76,Bad News,0,160
+195,76,Nobody Knows,0,195
+196,76,My 808,0,159
+197,76,TTG,0,209
+198,76,Gentleman,0,178
+199,76,Says It,0,211
+200,76,Bad News (ENG Ver.),0,160
+201,78,KEEPING THE FIR,0,127
+202,80,MANIAC,1,195
+203,80,Untie,0,189
+204,80,Overflow,0,189
+205,80,한 걸음 (Day by day),0,199
+206,80,Up 2 Me,0,180
+207,81,Feel me,1,211
+208,81,Blind Love,0,199
+209,81,Dear,0,205
+210,82,ODYSSEY,0,176
+211,82,VROOM VROOM,1,196
+212,82,Backwards,0,161
+213,82,Sweet Dream,0,185
+214,82,A+,0,198
+215,82,RUBY-DUBY-DU,0,194
+216,83,My Own Way,0,204
+217,83,YOUTH!!!,1,205
+218,83,Talking To Myself,0,183
+219,83,기억조작단 (First Crush),0,214
+220,83,If You Love Me,0,222
+221,83,널 만나러 가는 길 (The Way To You),0,240
+222,83,선인장 소년 (Cactus Boy),0,277
+223,85,UN-NORMA,0,159
+224,85,Domino,0,133
+225,85,UN-NORMAL – English Version,0,126
+226,85,UN-NORMAL – Instrumental,0,130
+227,85,Domino – Instrumental,0,160
+228,86,Truth or Dare,0,194
+229,86,The Letter (편지),0,161
+230,86,P S,0,126
+231,86,Truth or Dare – English Version,0,153
+232,89,Let’s Get Lost,0,68
+233,89,RUCKUS,1,203
+234,89,B.O.M.C (Bang On My Chest),0,202
+235,89,Rolling Stones,0,190
+236,89,Love Parachute,0,186
+237,89,책갈피 (Bookmark),0,214
+238,90,SOS (Prod. Marshmello),0,192
+239,90,음악의 신 (God of Music),1,205
+240,90,Diamond Days,0,205
+241,90,Back 2 Back,0,190
+242,90,Monster,0,159
+243,90,하품 (Yawn),0,258
+244,90,Headliner,0,189
+245,90,음악의 신 (God of Music) (Instrumental),0,205
+246,94,POSSE UP!,0,122
+247,94,MACARONI CHEESE,1,154
+248,94,OTB,0,180
+249,94,Cooing,0,141
+250,95,INTRO: APOCALYPS,0,91
+251,95,쿠데타 (COUP D’ETAT),1,186
+252,95,LOVE SONG,0,216
+253,95,X-GAM,0,178
+254,95,ON MY WAY,0,223
+255,95,모래성 (SANDCASTLE)   –  2:57,0,143
+256,95,쿠데타 (COUP D’ETAT) (Instrumental),0,186
+257,97,Favorite,0,204
+258,97,Dazzling,1,191
+259,97,Slow Dancing,0,170
+260,97,Amazing,0,181
+261,98,Freddy,0,205
+262,98,Break the Brake,1,200
+263,98,PLUTO,0,200
+264,98,Enemy,0,174
+265,98,Bad Chemical,0,185
+266,98,Paranoid,0,230
+267,98,AGAIN? AGAIN!,0,198
+268,100,Drama,0,187
+269,100,MEDUSA,1,168
+270,100,Paper Plane,0,144
+271,100,Youth,0,225
+272,100,Coming Home,0,168
+273,100,얼어있는 길거리에 잠시라도 따듯한 햇빛이 내리길 (Camellia),0,194
+274,100,"Coming Home (Acoustic ver, English ver.) (Digital Only)",0,169
+275,101,Surrender,0,170
+276,101,FULL METAL JACKET,1,172
+277,101,Hit The Wall,0,177
+278,101,No Roof,0,187
+279,104,Be Here Now,0,183
+280,104,바람이 분다 (Love Effect),1,172
+281,104,Dam Dam Di Ram,0,184
+282,104,Arrival,0,198
+283,104,바람이 부는 이유 (Wind Effect),0,179
+284,105,Intro : Begging You,0,103
+285,105,Baila Conmigo,1,188
+286,105,Simulation,0,178
+287,105,미리보기 (Epilogue),0,205
+288,105,Baila Conmigo (Spanish ver.),0,176
+289,46,New tomorrow,1,230
+290,46,One shot,0,218
+291,46,Shangri-La,0,190
+292,108,Vroom Vroom,1,179
+293,108,DIV,0,178
+294,108,Bluetooth,0,201
+295,9,TROUBLE,1,206
+296,9,Role Model,0,193
+297,9,Pretty Thing,0,181
+298,9,Your Text,0,178
+299,9,JUKEBOX,0,181
+300,9,Even More,0,198
+301,111,Intro : Searching for their friends,0,42
+302,111,Sensitive,1,185
+303,111,Real world,0,190
+304,111,Colouring,0,190
+305,111,Newtopia,0,215
+306,111,Strawberry soda,0,183
+307,111,Day by day,0,192
+308,111,Sensitive (English ver.),0,185
+309,112,Die for You,0,207
+310,112,CHEEKY,1,174
+311,112,Undercover,0,183
+312,112,Hideaway,0,210
+313,112,Cloud 9,0,199
+314,113,FLIRTING,1,190
+315,113,TIPSY,0,217
+316,113,A-OK,0,228
+317,113,FLIRTING (Instrumental),0,190
+318,114,Cheese,1,206
+319,114,Ready or Not,1,191
+320,114,MEGAPHON,0,189
+321,114,Vibration,0,216
+322,114,9 o’clock,0,184
+323,114,LOVE FIR,0,186
+324,117,Sage,1,315
+325,117,All Of My Life,0,205
+326,117,I’m Still Here,0,159
+327,117,Broken,0,198
+328,117,Not Enough,0,221
+329,117,Rising Star (ft.G.O.P),0,201
+330,118,BOOM,1,195
+331,118,Alive,0,207
+332,118,Give Me Your Heart,0,195
+333,119,ven conmigo,0,119
+334,120,ven conmigo,0,119
+335,119,MY WAY,1,207
+336,120,MY WAY,1,207
+337,119,O.Y.,0,197
+338,120,O.Y.,0,197
+339,123,돌아버리겠다 (But I Like You)     – 2:17,0,125
+340,123,One and Only,0,167
+341,123,Serenade,0,183
+342,123,Crying,0,183
+343,123,뭣 같아 (But Sometimes)    *TITLE     – 2:55,1,163
+344,123,ABCDLOV,0,157
+345,125,Get A Guitar,0,177
+346,125,Memories,0,167
+347,79,SYNCHRONIZE,1,195
+348,79,겁이나 (CLOSE MY EYES),0,199
+349,79,CAT&TIGER,0,219
+350,79,CLOSE MY EYES (겁이나) (English ver.),0,199
+351,126,어젯밤 이야기 (Mess With My Mind),0,190
+352,126,"안녕, 인사해 (Smooth Sailing)",1,216
+353,126,Sorry So Sorry,0,149
+354,126,Little Me,0,201
+355,129,Baggy Jeans,0,146
+356,129,Call D,0,122
+357,129,Pado,0,190
+358,129,Interlude: Oasis,0,200
+359,129,The Bat,0,172
+360,129,Alley Oop,0,126
+361,129,That’s Not Fair,0,186
+362,129,Kangaroo,0,133
+363,129,Not Your Fault,0,206
+364,129,Golden Age,0,175
+365,2,PERFORMER,1,173
+366,2,Diamonds,0,213
+367,2,솔직히 (TBH),0,202
+368,2,WANT U BACK,0,173
+369,2,Savior,0,228
+370,2,폼 (FORM) (2023 ver.),0,213
+371,130,SLAY,1,220
+372,130,Oh Ma Ma God,0,188
+373,130,Make Me Feel,0,181
+374,131,DUBI DUBI,1,181
+375,131,DUBI DUBI (Instrumental),0,181
+376,131,DUBI DUBI (Sped Up),0,161
+377,132,Higher,0,206
+378,132,원홀 (Wormhole),1,225
+379,132,SPIC,0,199
+380,132,Melody,0,165
+381,132,HOM,0,199
+382,132,SPICE (Inst.),0,199
+383,132,Melody (Inst.),0,165
+384,132,HOME (Inst.),0,199
+385,133,Planet,0,372
+386,134,B,0,190
+387,134,MAD,1,176
+388,134,DIEF,0,142
+389,135,하나 (ONE),0,183
+390,135,Turn it off,0,189
+391,135,미친듯이 (Like crazy),0,216
+392,135,Power up,0,186
+393,135,아파 (Hurt),0,212
+394,135,Highschool love,0,204
+395,136,Skater,0,217
+396,136,HOMEBOY,0,214
+397,136,DO or D,0,210
+398,136,Koong,0,200
+399,136,Run,0,244
+400,136,Sunny Side,0,193
+401,138,BLUE,1,192
+402,138,With U,0,225
+403,138,You&,0,200
+404,138,손을 잡아줘 (Hold my hand),0,187
+405,138,Priceless,0,239
+406,140,Intro : 13,0,106
+407,140,New Emotions,1,164
+408,140,시차 (Time Difference),0,192
+409,140,I Got You,0,214
+410,140,Find Me,0,197
+411,140,New Emotions (Inst.),0,164
+412,24,BET ON M,0,199
+413,24,CAKE,1,198
+414,24,None of My Business,0,202
+415,24,Bratty (나쁜 애),0,162
+416,24,Psychic Lover,0,164
+417,24,Kill Shot,0,136
+418,141,BONA BONA,1,212
+419,141,I WANT YOUR LOV,0,188
+420,141,RUN,0,210
+421,141,MOVE (T5 Unit),0,208
+422,141,G.O.A.T (RAP Unit) (ft.Lee Younghyun),0,182
+423,141,멍청이 (STUPID),0,180
+424,141,어른 (THE WAY TO) (VOCAL Unit),0,208
+425,141,WONDERLAND,0,178
+426,141,B.O.M.B,0,201
+427,141,병 (LOVESICK),0,204
+428,142,Shining Sky,0,187
+429,142,꽃이 피었습니다 (Blossom),0,214
+430,142,MY COLOR,1,201
+431,142,Shining Sky  (Insturmental),0,187
+432,142,꽃이 피었습니다 (Blossom) (Instrumental),0,214
+433,142,MY COLOR (Instrumental),0,187
+434,143,Celebrate,0,166
+435,143,여름이 들려 (Summer Comes),1,200
+436,143,내 Type,0,180
+437,143,Dirty Laundry,0,169
+438,143,Paradise,0,150
+439,143,미라클 (Miracle),0,199
+440,145,New Jeans,0,108
+441,145,Super Shy,1,154
+442,145,ETA,1,151
+443,145,Cool With You,1,147
+444,145,Get Up,0,36
+445,145,ASAP,0,134
+446,147,GIR,0,183
+447,147,JUMP!,1,172
+448,147,So Different,0,165
+449,147,NOW & FOREVER,0,195
+450,147,Learn To Fly,0,184
+451,147,Drop The Bass,0,188
+452,13,Party O’Clock,1,183
+453,13,Roller Coaster,0,179
+454,13,Party O’Clock (Inst.),0,183
+455,13,Roller Coaster (Inst.),0,179
+456,148,Cream Soda,1,185
+457,148,Regret It,0,175
+458,148,Hear Me Out,0,204
+459,148,Private Party,0,189
+460,148,Cinderella,0,154
+461,148,No Makeup,0,204
+462,148,Love Fool,0,202
+463,148,Another Day,0,191
+464,148,Let Me In,0,197
+465,150,Back to ZEROBAS,0,165
+466,150,In Bloom,1,180
+467,150,New Kidz on the Block,0,212
+468,150,우주먼지 (and I),0,195
+469,150,Our Season,0,177
+470,150,Always (ZHANG HAO Solo),0,129
+471,77,쉿 (Shhh),1,182
+472,77,"안녕,네버랜드 (Bye My Neverland)",0,203
+473,77,Sugarcoat (NATTY Solo),0,179
+474,77,Countdown (BELLE Solo),0,171
+475,77,Kitty Cat (JULIE Solo),0,170
+476,77,Play Love Games (HANEUL Solo),0,180
+477,153,휙 (HWEEK),1,198
+478,153,NEXT YOU,0,199
+479,153,니가 아니라서 2023 (Missing You 2023),0,231
+480,153,휙 (HWEEK) (Inst.),0,198
+481,153,휙 (HWEEK) (Sped Up Ver.),0,165
+482,154,질주 (OVERDRIVE),1,195
+483,154,Be Alright (chillin’),0,200
+484,154,Thriller,0,186
+485,154,너의 행성 (All Day With You),0,193
+486,154,하루 끝에 (End of The Day),0,235
+487,20,WORLD    –  2:16,0,194
+488,20,EXCEL,1,170
+489,20,WALK IT OU,0,179
+490,20,SKETCH,0,205
+491,20,ING,0,199
+492,156,Who’s Next,1,193
+493,156,Marionette,0,179
+494,156,ULALA,0,169
+495,156,Paper,0,198
+496,156,Who’s Next (English Version),0,193
+497,156,Who’s Next (Inst.),0,193
+498,36,This World,0,212
+499,36,Dune,0,195
+500,36,BOUNCY (K-HOT CHILLI PEPPERS),1,187
+501,36,DJANGO,0,191
+502,36,최면 (Wake Up),0,186
+503,36,Outlaw,0,199
+504,157,Voyager,1,181
+505,157,Wild Heart,1,179
+506,157,XX,0,169
+507,157,We Like It,0,209
+508,157,Live In The Moment,0,183
+509,40,I Need Love,1,178
+510,40,More than 100 reasons,0,218
+511,40,Feeling,0,210
+512,40,1 on 1,0,159
+513,40,Outro : I Need Love,0,66
+514,158,Designer,1,182
+515,158,Call U Mine,0,207
+516,158,By My Side,0,209
+517,158,Reason,0,217
+518,158,보고싶어서 (2023 Ver.) (Cause I Miss You) (2023 Ver.),0,220
+519,159,JUMP,1,163
+520,159,Love Me For Me,0,184
+521,159,New Classic,0,182
+522,159,More Than Words,0,176
+523,159,Heartbeat Drum,0,183
+524,159,I Am You,0,220
+525,160,Kick It 4 Now,1,175
+526,160,By You,0,163
+527,160,Good Day,0,198
+528,160,최애 (My Bias),0,227
+529,160,1000 Miles,0,202
+530,160,Kick It 4 Now (English Ver.),0,175
+531,162,Attitude,0,190
+532,162,#menow,1,169
+533,162,Wishlist,0,176
+534,162,In the Mirror,0,211
+535,162,Don’t Care,0,202
+536,162,Prom Night,0,206
+537,162,Bring It On,0,171
+538,162,What I Want,0,209
+539,162,My Night Routine,0,177
+540,162,눈맞춤 (Eye Contact),0,210
+541,17,Starlight,0,211
+542,17,Eye to Eye,0,207
+543,17,Paradise,0,187
+544,17,Cha Cha,0,178
+545,17,Starlight (Acapella Ver.),0,196
+546,17,Eye to Eye (Acapella Ver.),0,198
+547,17,Starlight (Inst.),0,211
+548,17,Eye to Eye (Inst.),0,207
+549,65,위인전 (Hall of Fame),0,171
+550,65,특 (S-Class),1,195
+551,65,ITEM,0,191
+552,65,Super Bowl,0,183
+553,65,TOPLINE (ft.Tiger JK),0,203
+554,65,DLC,0,186
+555,65,죽어보다 (GET LIT),0,171
+556,65,충돌 (Collision),0,157
+557,65,FNF,0,171
+558,65,Youtiful,0,209
+559,65,THE SOUND (Korean Ver.),0,178
+560,65,Mixtape : Time Out,0,175
+561,124,돌아버리겠다 (But I Like You),1,137
+562,124,One and Only,1,167
+563,124,Serenade,1,183
+564,6,Back to Life,0,212
+565,6,"Save me, Kill me",1,217
+566,6,Curtain Call,0,225
+567,6,Color,0,213
+568,11,BLAZ,0,186
+569,11,LOSER,1,210
+570,11,REALITY,0,221
+571,11,EDEN   –,0,138
+572,11,SUCKER (우리가 해어졌던 이유 (Sucker for your love) Part. 2),0,206
+573,66,YOU.,0,79
+574,66,I Am YOU,0,205
+575,66,My Side,0,217
+576,66,Hero’s Soup,0,213
+577,66,Get Cool,0,195
+578,66,N/S,0,225
+579,66,0325,0,219
+580,66,Mixtape #3,0,260
+581,67,"Y  Park, 3Racha, Kim Chella, Collapsedone, Fredro, Glory Face, Hong Jisang, This N That, Trippy",0,182
+582,48,Intro : From us,0,68
+583,48,BONVOYAGE,1,213
+584,48,DEMIAN,0,179
+585,48,Propose,0,192
+586,48,To. You,0,205
+587,44,BOUNC,0,187
+588,44,Next to Me,1,200
+589,44,Just Dance,0,196
+590,44,사랑해줘 (Love Me),0,207
+591,44,Good Thing,0,185
+592,44,Just for Us,0,204
+593,168,Crazy Like That     *TITLE     –  3:11,1,201
+594,168,JUICY JUICY,0,181
+595,168,RAIN COA,0,204
+596,168,SMILE WITH YOU ( ),0,214
+597,4,퀸카 (QUEENCARD),1,161
+598,4,ALLERGY,0,162
+599,4,LUCID,0,175
+600,4,ALL NIGH,0,146
+601,4,PARADIS,0,189
+602,4,PETER PAN,0,190
+603,169,빛을 담아 너에게 줄게 (Sirius),0,186
+604,169,ISLAND,1,201
+605,169,할 수 있어 (Do It),0,190
+606,169,다시 만나 (With US),0,209
+607,170,Cherish,0,199
+608,170,Bubble,1,192
+609,106,Intro : LETH,0,86
+610,106,ERASE ME,1,189
+611,106,잇다 있다 잊었다 (Unforgettable),0,209
+612,106,ECHO,0,184
+613,106,반짝임 그 찰나의 널 (Halley’s Comet),0,204
+614,172,U,1,199
+615,172,딴따라 (Tantara)    *SUB-TITLE   – 2:47,1,135
+616,172,RUM PUM PUM,0,173
+617,172,영화처럼 (Like a Movie),0,206
+618,172,Driving Slowly,0,183
+619,172,잊어볼게 (Never Forget You),0,244
+620,172,여기까진가봐 (All The Way Here),0,298
+621,172,으라차차 (FIGHTING)  (SONG Solo),0,210
+622,172,Kiss Me  (DK Solo),0,193
+623,172,Want You Back  (JU-NE Solo),0,187
+624,173,나의 바람 (Wind and Wish),1,221
+625,173,Heaven,0,211
+626,173,Day&Night,0,201
+627,173,Moon Ride,0,220
+628,173,Your Love,0,228
+629,102,사랑하는 내 님아 (My Darling),0,173
+630,102,여우가시집가는 날 (Sunshower),1,193
+631,102,"안녕, 나의 첫사랑 (Goodbye, My First Love)",0,201
+632,102,꿈의 능선 (SKYLINE),0,180
+633,91,F*ck My Life,1,202
+634,91,손오공 (Super),1,200
+635,91,Fire (HipHop Team),0,158
+636,91,I don’t Understand But I Luv U (Performance Team),0,209
+637,91,먼지 (Dust) (Vocal Team),0,165
+638,91,April shower,0,212
+639,109,폭풍의 눈 (EYE OF THE STORM),0,194
+640,109,난장 (DANGEROUS),1,202
+641,109,Freak Show,0,180
+642,109,I’ll Be There,0,212
+643,174,Blue Blood,0,167
+644,174,I AM,1,183
+645,174,KITSCH,0,195
+646,174,Lips,0,181
+647,174,Heroine,0,171
+648,174,Mine,0,190
+649,174,섬찟 (Hypnosis),0,146
+650,174,NOT YOUR GIR,0,202
+651,174,궁금해 (Next Page),0,199
+652,174,Cherish,0,194
+653,174,Shine With Me,0,224
+654,175,D N D,1,187
+655,175,Withcha,0,187
+656,175,"Me, Myself &",0,203
+657,175,Candy,0,185
+658,175,나만 알면 돼 (I want you to be happy),0,227
+659,176,enchanted night ~ white night,0,712
+660,177,Let Me Explode (폭파해줘),0,206
+661,177,I’m Sorry,0,231
+662,177,Magnet,0,211
+663,177,We Are A Bit Different (우린 좀 달라),0,217
+664,177,1.2.3.4.5,0,235
+665,137,The TRICKY’s Secret,0,107
+666,137,Doorbell Ringing,0,207
+667,137,도깨비집 (TRICKY HOUSE),1,184
+668,137,Dynamic 淸亮 (청량),0,65
+669,137,ROCKSTAR,1,193
+670,137,XIKEY,0,208
+671,137,Oh My Gosh,0,201
+672,178,열여덟 (Eighteen Signal),0,191
+673,178,빛을 따라서 (Shining Bright),1,208
+674,178,소풍 (Picnic),0,188
+675,178,마음이 피어요 (Dandelion),0,233
+676,96,”Intro : Stigma (烙印)” – 1:33,0,122
+677,180,BLACK OU,0,193
+678,180,NUGUDOM,1,242
+679,180,FINGER FLICK,0,182
+680,180,It’s alright,0,214
+681,180,Lucid Dream,0,183
+682,180,Poison Rose,0,213
+683,180,Undercover (Remix),0,216
+684,180,Cypher (Position),0,145
+685,121,Nightmare,0,127
+686,122,Nightmare,0,127
+687,121,NEW DAYZ,1,206
+688,122,NEW DAYZ,1,206
+689,121,Fantasy,0,221
+690,122,Fantasy,0,221
+691,87,HIDE & SEEK,0,184
+692,87,FLIP A COIN,0,174
+693,87,KARMA,1,184
+694,87,FALLING,0,206
+695,87,귓속말 (WHISPER),0,182
+696,87,KARMA (Inst.),0,184
+697,30,SET ME FREE,1,181
+698,30,MOONLIGHT SUNRIS,0,180
+699,30,GOT THE THRILLS,0,173
+700,30,BLAME IT ON M,0,160
+701,30,WALLFLOWER,0,176
+702,30,CRAZY STUPID LOV,0,169
+703,30,SET ME FREE (Eng Ver.),0,181
+704,181,P.O.W! (Play On the World)    *,1,194
+705,181,Whistle Like That,0,200
+706,181,Cloud Nine,0,168
+707,181,Queen,0,186
+708,181,겨울 별 (A Winter Star),0,218
+709,182,Cupid,1,174
+710,182,Cupid (Twin Ver.),0,174
+711,182,Cupid (Instrumental),0,174
+712,55,Awake,0,137
+713,55,ROAR,1,220
+714,55,Blah Blah,0,172
+715,55,Savior,0,246
+716,55,숨 (Horizon),0,210
+717,55,Diamond Life,0,206
+718,18,HONESTLY,1,189
+719,18,Blanc Noir,0,224
+720,18,Crystal,0,216
+721,18,HONESTLY Inst.,0,189
+722,18,Blanc Noir Inst.,0,224
+723,18,Crystal Inst.,0,216
+724,18,HONESTLY Acapella,0,189
+725,18,Blanc Noir Acapella,0,224
+726,18,Crystal Acapella,0,216
+727,184,Intro : Save Me,0,71
+728,184,Sweet Juice,1,192
+729,184,T4ke,0,171
+730,184,Autopilot,0,179
+731,184,아지트 (agit),0,166
+732,184,So Far So Good,0,183
+733,161,Love Never Dies,0,98
+734,161,I Need U,1,192
+735,161,Love or Die,1,185
+736,161,Wasn’t Ready,0,183
+737,161,Slingshot,0,182
+738,161,따따따 (DDA DDA DDA) (Short Ver.),0,97
+739,186,STAY TOGETHER,0,200
+740,186,WE ARE YOUNG,1,177
+741,186,WITCH,0,188
+742,186,WONDERLAND,0,177
+743,186,WOULD YOU RUN  (Original Ver.),0,196
+744,187,Beam,0,158
+745,187,Before the Rise,0,53
+746,187,Rising,1,159
+747,187,Colorful,0,202
+748,187,The Baddest,0,215
+749,187,New look,0,208
+750,187,초월 (Chowall),0,63
+751,21,W,0,198
+752,21,TIC TAC,1,202
+753,21,WONDER,0,218
+754,21,SAY MY NAM,0,188
+755,21,HEARTACH,0,216
+756,152,Devil by the Window,0,186
+757,152,Sugar Rush Ride,1,187
+758,152,Happy Fools (ft.Coi Leray),0,156
+759,152,Tinnitus (Wanna be a rock),0,157
+760,152,"네버랜드를 떠나며 (Farewell, Neverland)",0,181
+761,127,I’m Okay,0,180
+762,127,오로라 (AURORA),1,206
+763,127,PALAC,0,195
+764,127,PARAD,0,208
+765,69,”FAM Korean version” title –3:33,0,136
+766,69,”Connected” (Bang Chan)-2:52,0,175
+767,69,“Limbo (나지막이)” (Lee Know)-03:17,0,198
+768,69,”Doodle” (Changbin)-03:04,0,151
+769,69,”Love Untold” (Hyunjin)-03:31,0,180
+770,69,”Run” (Han)-2:59,0,164
+771,69,”Deep End” (Felix)-03:28,0,147
+772,69,”Stars and Raindrops (내려요)” (Seungmin)-03:49,0,137
+773,69,”Hug Me(안아줄게요)” (I N)-3:00,0,146
+774,69,”#Lovestay”-03:18,0,206
+775,189,INTRO_130°,0,86
+776,189,PRIMROSE,1,218
+777,189,COMELY,0,171
+778,189,PLAY,0,205
+779,146,OMG,1,212
+780,146,Ditto,0,185
+781,37,HALAZIA,1,197
+782,37,WIN (June One of Glen Check Remix),0,209
+783,37,I’m The One (Eden-ary Remix),0,194
+784,37,Take Me Home (IDIOTAPE Remix),0,214
+785,37,Outro: Blue Bird,0,126
+786,139,Dream Land,1,191
+787,139,Mirage,0,176
+788,139,Stargazing,0,224
+789,139,미래에서 온 소년 (A boy from future),0,208
+790,139,지금처럼 (Just like now),0,258
+791,25,Cheshire,1,182
+792,25,Snowy,0,173
+793,25,Freaky,0,175
+794,25,Boys Like You,0,223
+795,38,Intro: Siren,0,99
+796,38,Paradigm,1,193
+797,38,Cyberpunk (Japanese Ver.),0,223
+798,38,Guerrila (Flag Ver.),0,215
+799,38,New World (Japanese Ver.),0,216
+800,38,Outro: Liberty,0,78
+801,60,Birthday,1,216
+802,60,BYE BY,0,196
+803,60,롤러코스터 (On A Ride),0,199
+804,60,ZOOM,0,184
+805,60,Celebrate,0,164
+806,188,Access (Intro),0,45
+807,188,Generation,0,164
+808,188,Rolex,0,192
+809,188,Charla,0,183
+810,188,Dimension (AAA ver.),0,191
+811,188,+(82) (Outro),0,47
+812,110,Taste The Feeling,0,200
+813,110,DRAGON (飛上),1,214
+814,110,Loving Number,0,174
+815,110,Raise Me Up,0,195
+816,179,"러브티콘 (♡TiCON, LOVETICON)",1,180
+817,179,Anding (&),0,219
+818,171,INTRO: BETTING STARTS,0,65
+819,171,네모 (NEMO),0,184
+820,171,Fight Inside,1,179
+821,171,Colors,0,200
+822,190,LIMBO! (넘어와),1,196
+823,190,덤덤해 (I’M DONE),0,200
+824,190,인정 (You Right),0,213
+825,190,RICA RICA,0,206
+826,190,Rainbow,0,258
+827,31,Celebrate,0,188
+828,31,Voices Of Delight,0,183
+829,31,Tick Tock  – 3;03,0,188
+830,31,Flow Like Waves,0,213
+831,31,That’s all I’m saying,0,182
+832,31,Bitter Sweet,0,210
+833,31,Sandcastle,0,192
+834,31,Just Be Yourself,0,200
+835,31,Doughnut,0,263
+836,103,첫사랑의 법칙 (First Love’s Law),0,171
+837,103,고백 Bomb (Love Bomb),0,172
+838,103,사랑歌 (Hymn to Love),1,194
+839,103,작은 언약식 (The Vow),0,170
+840,195,Tick Tick Boom,0,179
+841,195,ZEALOUS,0,234
+842,196,The Hydra,0,104
+843,196,ANTIFRAGILE,1,184
+844,196,Impurities,0,196
+845,196,No Celestial,0,166
+846,196,Good Parts (when the quality is bad but I am),0,156
+847,197,We Fresh,1,195
+848,197,Lion Tamer,0,182
+849,197,Downtown,0,157
+850,197,Dreams,0,202
+851,197,THE GIRLS (can’t turn me down) (Remastered),0,237
+852,49,“Intro: Chaotical X”,0,72
+853,49,“Vision” title,0,189
+854,49,“Fairytale”,0,231
+855,49,“Some Love”,0,172
+856,49,“이 비가 그칠 때면 (Rainy Day)”,0,217
+857,49,“Outro: Mother Nature”,0,71
+858,70,“Case 143” title,0,192
+859,70,“Chill (식혀)”,0,195
+860,70,“Give Me Your TMI”,0,198
+861,70,“Super Board”,0,186
+862,70,"“3RACHA” (Bang Chan, Changbin, Han)",0,209
+863,70,"“Taste” (Lee Know, Hyunjin, Felix)",0,216
+864,70,"“Can’t Stop (나 너 좋아하나봐)” (Seungmin, I.N)",0,210
+865,70,”Circus (Korean Version)” – 3:14,0,174
+866,116,Boogie Woogie,0,140
+867,116,PARTY ROCK,0,193
+868,116,New Addiction,0,176
+869,116,AUTOMATIC,0,126
+870,116,Colorful,0,131
+871,116,Knock Knock,0,145
+872,199,“Pink Venom”,0,193
+873,199,“Shut Down” title,0,177
+874,199,“Type Girl”,0,180
+875,199,“Yeah Yeah Yeah”,0,180
+876,199,“Hard to Love” (Rosé solo),0,163
+877,199,“The Happiest Girl”,0,223
+878,199,“Tally”,0,184
+879,199,“Ready for Love”,0,187
+880,32,“Talk that Talk” title,0,174
+881,32,“Queen of Hearts”,0,187
+882,32,“Basics”,0,177
+883,32,“Trouble”,0,216
+884,32,“Brave”,0,190
+885,32,“Gone”,0,195
+886,32,“When We Were Kids”,0,190
+887,26,)” – 3:01,0,199
+888,107,Wolf” – 3:09,0,126
+889,107,)” – 3:24,0,139
+890,71,I A ” – 3:30,0,155
+891,144,Real Love,0,201
+892,144,Drip,0,208
+893,144,Eden,0,181
+894,144,Replay,0,151
+895,144,Parachute,0,154
+896,144,Kiss & Fix,0,188
+897,144,Blink,0,195
+898,144,Dear Rose,0,239
+899,144,Sailing Heart (항해),0,219
+900,144,Real Love (Inst.),0,201
+901,72,” – 2:44,0,138
+902,72,N) – 3:39,0,170
+903,191,RICA RICA,0,206
+904,191,Dear Leaf (버팀목),0,251
+905,198,See The Light,0,111
+906,198,WA DA DA,0,183
+907,198,MVSK,0,190
+908,198,Shine – Kep1er Version,0,214
+909,198,Another Dream – Kep1er Version,0,201
+910,198,O.O.O (Over&Over&Over) – Kep1er Version,0,247
+911,73,Christmas Eve,0,179
+912,73,24 to 25,0,217
+913,73,Winter Falls,0,236
+914,73,Domino (English Version),0,199
+915,203,Shy Boy,0,218
+916,203,Dreams Come True,0,242
+917,203,"Snow, X-mas",0,234
+918,203,I Love You,0,213
+919,203,Feeling,0,224
+920,203,Rain,0,247
+921,203,Finding a Lover,0,257
+922,203,For You,0,256
+923,203,Kiss,0,254
+924,203,Eternal Love,0,211
+925,192,I’m So Pretty (내가 좀 예뻐),0,210
+926,192,SHUT UP!,0,208
+927,192,Race (달리기),0,185
+928,192,I Wish (행운을 빌어요),0,211
+929,192,A Little Star,0,244
+930,193,Some (You’ll Be Mine),0,217
+931,193,Dream About U,0,199
+932,193,La Historia,0,208
+933,194,Allegro Cantabile (너의 곁으로),0,254
+934,194,Girls and Flowers (기분 좋아),0,189
+935,194,Allegro Cantabile Instrumental,0,255
+936,194,Girls and Flowers Instrumental,0,189
+937,92,To you (소용돌이),0,156
+938,92,Rock with you,0,195
+939,92,Crush,0,193
+940,92,PANG!,0,141
+941,92,Imperfect Love (매일 그대라서 행복하다),0,181
+942,92,I can’t run away (그리워하는 갓까지),0,157
+943,92,2 minus 1 [Digital only],0,170
+944,93,Fronting,0,185
+945,93,Mansae,0,186
+946,93,When I Grow Up,0,202
+947,93,OMG,0,183
+948,93,Rock,0,191
+949,61,Rookie,0,197
+950,61,Little Little,0,239
+951,61,Happily Ever After,0,201
+952,61,Talk To Me,0,212
+953,61,Body Talk,0,219
+954,61,마지막 사랑 (Last Love) (Wendy solo),0,294
+955,62,Russian Roulette (Title Track),0,211
+956,62,Lucky Girl,0,203
+957,62,Bad Dracula,0,188
+958,62,Sunny Afternoon,0,240
+959,62,Fool,0,233
+960,62,Some Love,0,196
+961,62,My Dear,0,214
