@@ -193,7 +193,7 @@ def generate_albums_data(cols: list, count: int, offset: int, process: int = 1):
     group_id = random.randint(1+GROUPS_LAST_ID, LIMIT+GROUPS_LAST_ID)
 
     # Stock
-    stock = random.randint(0, 100)
+    stock = random.randint(0, 200)
 
     # Price
     price = random.randint(200000, 16000000)
