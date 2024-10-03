@@ -4,15 +4,16 @@ import randomname
 import random
 from multiprocessing import Process
 from names_generator import generate_name
+import time
 
 DATA_CSV_DIR = os.path.join(os.getcwd(), "data_csv")
 DATA_FINAL_DIR = os.path.join(os.getcwd(), "data_final")
 DATA_TEMP_DIR = os.path.join(os.getcwd(), "data_temp")
-LIMIT = 100000
+LIMIT = 500000
 COMPANIES_LAST_ID = 1125
 GROUPS_LAST_ID = 447
 COUNTRIES_LAST_ID = 195
-
+ALBUMS_LAST_ID = 204
 
 
 def generate_groups_data(cols: list, count: int, offset: int, process: int = 1):
@@ -149,11 +150,120 @@ def generate_idols_data(df_countries: pd.DataFrame,cols: list, count: int, offse
   filename = os.path.join(DATA_TEMP_DIR, f"idols_P{process}.csv")
   result_df.to_csv(filename, index=False)
 
+def generate_albums_data(cols: list, count: int, offset: int, process: int = 1):
+  result_data = []
+  quarter = count // 4
+  for i in range(1, count+1):
+    # ID
+    id = offset + i
+
+    # Title
+    name = randomname.get_name()
+    names = name.split("-")
+    f_name = names[0].title()
+    l_name = names[1].title()
+
+    rand_int = random.randint(0, 3)
+    if (rand_int == 0):
+      title = f"{f_name}: {l_name}"
+    elif (rand_int == 1):
+      title = f"{l_name}-{f_name}"
+    elif (rand_int == 2):
+      title = f"{f_name}"
+    elif (rand_int == 3):
+      title = f"{l_name}: {f_name}"
+
+    # Release date
+    year = random.randint(2010, 2023)
+    month = random.randint(1, 12)
+    date = random.randint(1, 29)
+    release = f"{year}-{month}-{date}"
+
+    # Type
+    album_types = ['Mini Album', 'Full Length Album', 'Single Album', 'EP Album', 'Compilation Album', 'Digital Single']
+    album_type = album_types[random.randint(0, len(album_types)-1)]
+
+    # Duration 
+    duration = random.randint(100, 600)
+
+    # Genre 
+    genre = "Pop"
+
+    # Group _id
+    group_id = random.randint(1+GROUPS_LAST_ID, LIMIT+GROUPS_LAST_ID)
+
+    # Stock
+    stock = random.randint(0, 100)
+
+    # Price
+    price = random.randint(200000, 16000000)
+
+    row_data = [id, title, release, album_type, duration, genre, group_id, stock, price]
+    result_data.append(row_data)
+
+    if (i % quarter == 0):
+      print(f"[CHECKPOINT] Generating Albums data checkpoint {i} data on P{process}")
+  
+  result_df = pd.DataFrame(result_data, columns=cols)
+  filename = os.path.join(DATA_TEMP_DIR, f"albums_P{process}.csv")
+  result_df.to_csv(filename, index=False)
+
+def generate_songs_data(cols: list, count: int, offset: int, process: int = 1):
+  result_data = []
+  quarter = count // 4
+  for i in range(1, count+1):
+    # ID
+    id = offset + i
+
+    # Album_id
+    album_id = random.randint(1+ALBUMS_LAST_ID, LIMIT+ALBUMS_LAST_ID)
+
+    # Title
+    name = randomname.get_name()
+    names = name.split("-")
+    f_name = names[0].title()
+    l_name = names[1].title()
+
+    name2 = randomname.get_name()
+    names2 = name2.split("-")
+    f_name2 = names2[0].title()
+    l_name2 = names2[1].title()
+
+    rand_int = random.randint(0, 3)
+    if (rand_int == 0):
+      title = f"{f_name} {l_name} {f_name2}"
+    elif (rand_int == 1):
+      title = f"{l_name}-{f_name} {l_name2}"
+    elif (rand_int == 2):
+      title = f"{f_name} {l_name2}"
+    elif (rand_int == 3):
+      title = f"{l_name2} {f_name} {l_name2}"
+
+    # Is title track
+    is_title_track = True if (random.randint(0,1) == 0) else False
+
+    # Duration 
+    duration = random.randint(120, 240)
+
+    row_data = [id, album_id, title, is_title_track, duration]
+    result_data.append(row_data)
+
+    if (i % quarter == 0):
+      print(f"[CHECKPOINT] Generating Songs data checkpoint {i} data on P{process}")
+  
+  result_df = pd.DataFrame(result_data, columns=cols)
+  filename = os.path.join(DATA_TEMP_DIR, f"songs_P{process}.csv")
+  result_df.to_csv(filename, index=False)
 
 
 if __name__ == "__main__":
   files = []
   filename = os.listdir(DATA_CSV_DIR)
+
+  # Start time
+  start = time.time()
+  print("[START] ")
+
 
   # Reading each file
   for file in filename:
@@ -166,12 +276,6 @@ if __name__ == "__main__":
     offset = df['id'].max()
 
 
-    # if (file == 'groups.csv'):      
-    #   p1 = Process(target=generate_groups_data, args=(cols, amount, offset, 1))
-    #   p2 = Process(target=generate_groups_data, args=(cols, amount, offset + amount, 2))
-    #   p3 = Process(target=generate_groups_data, args=(cols, amount, offset + 2*amount, 3))
-    #   p4 = Process(target=generate_groups_data, args=(cols, amount, offset + 3*amount, 4))
-
     # if (file == 'companies.csv'):
     #   df_countries = pd.read_csv(os.path.join(DATA_CSV_DIR, "countries.csv"))
     #   p1 = Process(target=generate_companies_data, args=(df_countries, cols, amount, offset, 1))
@@ -179,12 +283,30 @@ if __name__ == "__main__":
     #   p3 = Process(target=generate_companies_data, args=(df_countries, cols, amount, offset + 2*amount, 3))
     #   p4 = Process(target=generate_companies_data, args=(df_countries, cols, amount, offset + 3*amount, 4))
 
-    if (file == 'idols.csv'):
-      df_countries = pd.read_csv(os.path.join(DATA_CSV_DIR, "countries.csv"))
-      p1 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset, 1))
-      p2 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + amount, 2))
-      p3 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + 2*amount, 3))
-      p4 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + 3*amount, 4))
+    # if (file == 'groups.csv'):      
+    #   p1 = Process(target=generate_groups_data, args=(cols, amount, offset, 1))
+    #   p2 = Process(target=generate_groups_data, args=(cols, amount, offset + amount, 2))
+    #   p3 = Process(target=generate_groups_data, args=(cols, amount, offset + 2*amount, 3))
+    #   p4 = Process(target=generate_groups_data, args=(cols, amount, offset + 3*amount, 4))
+
+    # if (file == 'idols.csv'):
+    #   df_countries = pd.read_csv(os.path.join(DATA_CSV_DIR, "countries.csv"))
+    #   p1 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset, 1))
+    #   p2 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + amount, 2))
+    #   p3 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + 2*amount, 3))
+    #   p4 = Process(target=generate_idols_data, args=(df_countries, cols, amount, offset + 3*amount, 4))
+
+    if (file == 'albums.csv'):
+      p1 = Process(target=generate_albums_data, args=(cols, amount, offset, 1))
+      p2 = Process(target=generate_albums_data, args=(cols, amount, offset + amount, 2))
+      p3 = Process(target=generate_albums_data, args=(cols, amount, offset + 2*amount, 3))
+      p4 = Process(target=generate_albums_data, args=(cols, amount, offset + 3*amount, 4))
+
+    # if (file == 'songs.csv'):
+    #   p1 = Process(target=generate_songs_data, args=(cols, amount, offset, 1))
+    #   p2 = Process(target=generate_songs_data, args=(cols, amount, offset + amount, 2))
+    #   p3 = Process(target=generate_songs_data, args=(cols, amount, offset + 2*amount, 3))
+    #   p4 = Process(target=generate_songs_data, args=(cols, amount, offset + 3*amount, 4))
 
 
       p1.start()
@@ -196,6 +318,14 @@ if __name__ == "__main__":
       p2.join()
       p3.join()
       p4.join()
+
+  # End time
+  end = time.time()
+  duration = int(end-start)
+  print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
+  print("[FINISHED]")
+
+  
 
 
         

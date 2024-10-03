@@ -1,0 +1,196 @@
+id,name,capital,continent,currency
+1,Afghanistan,Kabul,Asia,Afghani
+2,Albania,Tirane,Europe,Lek
+3,Algeria,Algiers,Africa,Dinar
+4,Andorra,Andorra la Vella,Europe,Euro
+5,Angola,Luanda,Africa,New Kwanza
+6,Antigua and Barbuda,Saint John’s,North America,East Caribbean dollar
+7,Argentina,Buenos Aires,South America,Peso
+8,Armenia,Yerevan,Asia,Dram
+9,Australia,Canberra,Oceania,Australian dollar
+10,Austria,Vienna,Europe,Euro
+11,Azerbaijan,Baku,Asia,Manat
+12,The Bahamas,Nassau,North America,Bahamian dollar
+13,Bahrain,Manama,Asia,Bahrain dinar
+14,Bangladesh,Dhaka,Asia,Taka
+15,Barbados,Bridgetown,North America,Barbados dollar
+16,Belarus,Minsk,Europe,Belorussian ruble
+17,Belgium,Brussels,Europe,Euro
+18,Belize,Belmopan,North America,Belize dollar
+19,Benin,Porto-Novo,Africa,CFA Franc
+20,Bhutan,Thimphu,Asia,Ngultrum
+21,Bolivia,La Paz,South America,Boliviano
+22,Bosnia and Herzegovina,Sarajevo,Europe,Convertible Mark
+23,Botswana,Gaborone,Africa,Pula
+24,Brazil,Brasilia,South America,Real
+25,Brunei,Bandar Seri Begawan,Asia,Brunei dollar
+26,Bulgaria,Sofia,Europe,Lev
+27,Burkina Faso,Ouagadougou,Africa,CFA Franc
+28,Burundi,Gitega,Africa,Burundi franc
+29,Cambodia,Phnom Penh,Asia,Riel
+30,Cameroon,Yaounde,Africa,CFA Franc
+31,Canada,Ottawa,North America,Canadian dollar
+32,Cape Verde,Praia,Africa,Cape Verdean escudo
+33,Central African Republic,Bangui,Africa,CFA Franc
+34,Chad,N’Djamena,Africa,CFA Franc
+35,Chile,Santiago,South America,Chilean Peso
+36,China,Beijing,Asia,Chinese Yuan
+37,Colombia,Bogota,South America,Colombian Peso
+38,Comoros,Moroni,Africa,Franc
+39,Republic of the Congo,Brazzaville,Africa,CFA Franc
+40,Zimbabwe,Harare,Africa,United States dollar
+41,Costa Rica,San Jose,North America,Colón
+42,Cote d’Ivoire,Yamoussoukro,Africa,CFA Franc
+43,Croatia,Zagreb,Europe,Croatian
+44,Cuba,Havana,North America,Cuban Peso
+45,Cyprus,Nicosia,Europe,Euro
+46,Czech Republic,Prague,Europe,Koruna
+47,Denmark,Copenhagen,Europe,Danish Krone
+48,Djibouti,Djibouti,Africa,Djiboutian franc
+49,Dominica,Roseau,North America,East Caribbean dollar
+50,Dominican Republic,Santo Domingo,North America,Dominican Peso
+51,East Timor (Timor-Leste),Dili,Asia,U.S. dollar
+52,Ecuador,Quito,South America,U.S. dollar
+53,Egypt,Cairo,Africa/ Asia,Egyptian pound
+54,El Salvador,San Salvador,North America,Colón; U.S. dollar
+55,Equatorial Guinea,Malabo,Africa,CFA Franc
+56,Eritrea,Asmara,Africa,Nakfa
+57,Estonia,Tallinn,Europe,Estonia Kroon; Euro
+58,Ethiopia,Addis Ababa,Africa,Birr
+59,Fiji,Suva,Oceania,Fiji dollar
+60,Finland,Helsinki,Europe,Euro
+61,France,Paris,Europe,Euro
+62,Gabon,Libreville,Africa,CFA Franc
+63,The Gambia,Banjul,Africa,Dalasi
+64,Georgia,Tbilisi,Asia,Lari
+65,Germany,Berlin,Europe,Euro
+66,Ghana,Accra,Africa,Cedi
+67,Greece,Athens,Europe,Euro
+68,Grenada,Saint George’s,North America,East Caribbean dollar
+69,Guatemala,Guatemala City,North America,Quetzal
+70,Guinea,Conakry,Oceania,Guinean franc
+71,Guinea-Bissau,Bissau,Africa,CFA Franc
+72,Guyana,Georgetown,South America,Guyanese dollar
+73,Haiti,Port-au-Prince,North America,Gourde
+74,Honduras,Tegucigalpa,North America,Lempira
+75,Hungary,Budapest,Europe,Forint
+76,Iceland,Reykjavik,Europe,Icelandic króna
+77,India,New Delhi,Asia,Indian Rupee
+78,Indonesia,Jakarta,Asia,Rupiah
+79,Iran,Tehran,Asia,Rial
+80,Iraq,Baghdad,Asia,Iraqi Dinar
+81,Ireland,Dublin,Europe,Euro
+82,Israel,Jerusalem,Asia,Shekel
+83,Italy,Rome,Europe,Euro
+84,Jamaica,Kingston,North America,Jamaican dollar
+85,Japan,Tokyo,Asia,Yen
+86,Jordan,Amman,Asia,Jordanian dinar
+87,Kazakhstan,Nur Sultan,Asia/ Europe,Tenge
+88,Kenya,Nairobi,Africa,Kenya shilling
+89,Kiribati,Tarawa Atoll,Oceania,Kiribati dollar
+90,North Korea,Pyongyang,Asia,Won
+91,South Korea,Seoul,Asia,Won
+92,Kuwait,Kuwait City,Asia,Kuwaiti Dinar
+93,Kyrgyzstan,Bishkek,Asia,Som
+94,Laos,Vientiane,Asia,New Kip
+95,Latvia,Riga,Europe,Lats
+96,Lebanon,Beirut,Asia,Lebanese pound
+97,Lesotho,Maseru,Africa,Maluti
+98,Liberia,Monrovia,Africa,Liberian dollar
+99,Libya,Tripoli,Africa,Libyan dinar
+100,Liechtenstein,Vaduz,Europe,Swiss franc
+101,Lithuania,Vilnius,Europe,Litas
+102,Luxembourg,Luxembourg,Europe,Euro
+103,Macedonia,Skopje,Europe,Denar
+104,Madagascar,Antananarivo,Africa,Malagasy Ariary
+105,Malawi,Lilongwe,Africa,Kwacha
+106,Malaysia,Kuala Lumpur,Asia,Ringgit
+107,Maldives,Male,Asia,Rufiyaa
+108,Mali,Bamako,Africa,CFA Franc
+109,Malta,Valletta,Europe,Euro
+110,Marshall Islands,Majuro,Oceania,U.S. Dollar
+111,Mauritania,Nouakchott,Africa,Ouguiya
+112,Mauritius,Port Louis,African,Mauritian rupee
+113,Mexico,Mexico City,North America,Mexican peso
+114,Federated States of Micronesia,Palikir,Oceania,U.S. Dollar
+115,Moldova,Chisinau,Europe,Leu
+116,Monaco,Monte Carlo,Europe,Euro
+117,Mongolia,Ulaanbaatar,Asia,Togrog
+118,Montenegro,Podgorica,Europe,Euro
+119,Morocco,Rabat,Africa,Dirham
+120,Mozambique,Maputo,Africa,Metical
+121,Myanmar (Burma),Nay Pyi Taw,Asia,Kyat
+122,Namibia,Windhoek,Africa,Namibian dollar
+123,Nauru,Yaren District,Oceania,Australian dollar
+124,Nepal,Kathmandu,Asia,Nepalese rupee
+125,Netherlands,Amsterdam,Europe,Euro
+126,New Zealand,Wellington,Oceania,New Zealand dollar
+127,Nicaragua,Managua,North America,Gold cordoba
+128,Niger,Niamey,Africa,CFA Franc
+129,Nigeria,Abuja,Africa,Naira
+130,Norway,Oslo,Europe,Norwegian krone
+131,Oman,Muscat,Asia,Omani rial
+132,Pakistan,Islamabad,Asia,Pakistani rupee
+133,Palau,Melekeok,Oceania,U.S. dollar
+134,Palestine,Ramallah,Asia,Palestine Pound
+135,Panama,Panama City,North America,Balboa; U.S. dollar
+136,Papua New Guinea,Port Moresby ,Oceania,Kina
+137,Paraguay,Asuncion,South America,Guaraní
+138,Peru,Lima,South America,Nuevo sol
+139,Philippines,Manila,Asia,Peso
+140,Poland,Warsaw,Europe,Zloty
+141,Portugal,Lisbon,Europe/ Asia,Euro
+142,Qatar,Doha,Asia,Qatari riyal
+143,Romania,Bucharest,Europe,Romanian Rupee
+144,Russia,Moscow,Europe/ Asia,Ruble
+145,Rwanda,Kigali,Africa,Rwandan franc
+146,Saint Kitts and Nevis,Basseterre,North America,East Caribbean dollar
+147,Saint Lucia,Castries,North America,East Caribbean dollar
+148,Saint Vincent and the Grenadines,Kingstown ,North America,East Caribbean dollar
+149,Samoa,Apia,Oceania,Tala
+150,San Marino,San Marino,Europe,Euro
+151,Sao Tome and Principe,Sao Tome,Africa,Dobra
+152,Saudi Arabia,Riyadh,Asia,Riyal
+153,Senegal,Dakar,Africa,CFA Franc
+154,Serbia,Belgrade,Europe,Serbian Dinar
+155,Seychelles,Victoria,Africa,Seychelles rupee
+156,Sierra Leone,Freetown,Africa,Leone
+157,Singapore,Singapore,Asia,Singapore dollar
+158,Slovakia,Bratislava,Europe,Euro
+159,Slovenia,Ljubljana,Europe,Slovenian tolar; Euro
+160,Solomon Islands,Honiara,Oceania,Solomon Islands dollar
+161,Somalia,Mogadishu,Africa,Somali shilling
+162,South Africa,Cape Town,Africa,Rand
+163,South Sudan,Juba,Africa,Sudanese Pound
+164,Spain,Madrid,Europe/ Africa,Euro
+165,Sri Lanka,Sri Jayewardenepura Kotte,Asia,Sri Lankan rupee
+166,Sudan,Khartoum,Africa,Sudanese Pound
+167,Suriname,Paramaribo,South America,Surinamese dollar
+168,Swaziland,Mbabane,Africa,Lilangeni
+169,Sweden,Stockholm,Europe,Krona
+170,Switzerland,Berne,Europe,Swiss franc
+171,Syria,Damascus,Asia,Syrian pound
+172,Taiwan,Taipei,Asia,Taiwan dollar
+173,Tajikistan,Dushanbe,Asia,somoni
+174,Tanzania,Dodoma,Africa,Tanzanian shilling
+175,Thailand,Bangkok,Asia,Baht
+176,Togo,Lome,Africa,CFA Franc
+177,Tonga,Nuku’alofa,Oceania,Pa’anga
+178,Trinidad and Tobago,Port-of-Spain,South America,Trinidad and Tobago dollar
+179,Tunisia,Tunis,Africa,Tunisian dinar
+180,Turkey,Ankara,Europe/ Asia,Turkish lira
+181,Turkmenistan,Ashgabat,Asia,Manat
+182,Tuvalu,Funafuti province,Oceania,Tuvaluan Dollar
+183,Uganda,Kampala,Africa,Ugandan new shilling
+184,Ukraine,Kiev,Europe,Hryvnia
+185,United Arab Emirates,Abu Dhabi,Asia,U.A.E. Dirham
+186,United Kingdom,London,Europe,Pound sterling
+187,United States of America,Washington D.C.,North America,Dollar
+188,Uruguay,Montevideo,South America,Uruguay peso
+189,Uzbekistan,Tashkent,Asia,Uzbekistani sum
+190,Vanuatu,Port-Vila,Oceania,Vatu
+191,Vatican City (Holy See),Vatican City,Europe,Euro
+192,Venezuela,Caracas,South America,Bolivar
+193,Vietnam,Hanoi,Asia,Dong
+194,Yemen,Sanaa,Asia,Rial
+195,Zambia,Lusaka,Africa,Kwacha
