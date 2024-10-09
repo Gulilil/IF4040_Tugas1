@@ -1,4 +1,4 @@
-1. Nambah `price` sama `stock` di albums
+1. Nambah `price` sama `stock` di albums DONE
 2. Nambah entity `customers` : id, name, email, username, password, address, country_id
-3. Nambah entity `transactions` : trans_id, cust_id, time, status,
-4. Nambah entity `transaction_albums` : trans_id, album_id
+3. Nambah entity `transactions` : id, cust_id, time, status,
+4. Nambah entity `transaction_albums` : trans_id, album_id, quantity
