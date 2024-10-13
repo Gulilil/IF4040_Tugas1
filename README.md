@@ -3,11 +3,26 @@
 
 ## Table of Contents
 * [Deskripsi Singkat](#deskripsi-singkat)
+* [Detail Data](#detail-data)
 * [Anggota Kelompok](#anggota-kelompok)
 * [Referensi](#referensi)
 
 ## Deskripsi Singkat 
 Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional, dalam hal ini PostgreSQL, dengan DBMS Document, CouchDB. Analisis dilakukan dengan menggunakan 5 query read dan 5 query manipulasi (Insert, Update, Delete)
+
+## Detail Data
+| No. | Nama Relasi/ Tabel |Jumlah Data |
+|-----|--------------------|------------|
+| 1 | Albums | 500.203 rows | 
+| 2 | Companies | 501.125 rows |
+| 3 | Countries | 195 rows | 
+| 4 | Customers | 500.000 rows | 
+| 5 | Groups | 500.447 rows | 
+| 6 | Idols | 501.945 rows | 
+| 7 | Songs | 500.961 rows | 
+| 8 | Transaction_albums | 5.000.000 rows |
+| 9 | Transactions | 2.000.000 rows |
+
 
 
 ## Anggota Kelompok
