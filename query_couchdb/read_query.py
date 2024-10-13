@@ -27,19 +27,17 @@ def get_user_transaction_history(customer_name):
         print("-" * 40)
 
 
-# Function for No. 2: Get groups ordered by most albums sold using MapReduce
-def get_groups_ordered_by_albums_sold():
-    print("Fetching groups ordered by total albums sold...")
-    
-    # Query the view from the design document
-    results = db.view('group_album_sales/album_sales_by_group', reduce=True, group=True, descending=True)
+def get_groups_ordered_by_albums_sold(limit=10):
+    print(f"Fetching top {limit} groups ordered by total albums sold...")
+
+    # Query the view with the stale=ok option to improve performance
+    results = db.view('group_album_sales/album_sales_by_group', reduce=True, group=True, descending=True, limit=limit, stale='ok')
 
     # Print the results
     for row in results:
         group_name = row.key
         total_sales = row.value
         print(f"Group: {group_name}, Total Albums Sold: {total_sales}")
-
 
 # Function for No. 3: Get the number of albums released by each group
 def get_album_count_by_group():
@@ -77,28 +75,20 @@ def get_idols_from_group(group_name):
         print("-" * 40)
 
 
-# Function for No. 5: Get the best-selling album in each genre using MapReduce
-def get_best_selling_album_by_genre():
-    print("Fetching the best-selling album in each genre...")
-    
-    # Query the view from the design document
-    results = db.view('best_selling_album_by_genre/album_sales_by_genre', reduce=True, group_level=2)
+# Function for No. 5: Get the best-selling album ordered by total sales
+def get_best_selling_albums():
+    print("Fetching the best-selling albums...")
 
-    genre_sales = {}
+    # Query the MapReduce view
+    results = db.view('album_sales/album_sales_total', reduce=True, group=True, descending=True)
 
-    # Process results by genre
+    # Fetch album details from each album_id and print the total sales
     for row in results:
-        genre = row.key[0]
-        album_title = row.key[1]
+        album_id = row.key
         total_sales = row.value
-
-        # Check if this album has the highest sales for this genre
-        if genre not in genre_sales or genre_sales[genre]['total_sales'] < total_sales:
-            genre_sales[genre] = {'album_title': album_title, 'total_sales': total_sales}
-
-    # Print the best-selling album for each genre
-    for genre, data in genre_sales.items():
-        print(f"Genre: {genre}, Best-Selling Album: {data['album_title']}, Total Sales: {data['total_sales']}")
+        album_doc = db.get(album_id)  # Get album details by album_id
+        album_title = album_doc.get('title', 'Unknown')
+        print(f"Album: {album_title}, Total Sales: {total_sales}")
 
 # Main function to run the queries
 if __name__ == "__main__":
