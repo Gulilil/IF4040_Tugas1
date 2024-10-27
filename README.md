@@ -1,5 +1,6 @@
-# TUGAS 1 Relational DBMS vs Document No-SQL DBMS - IF4040
+# TUGAS BESAR Relational DBMS vs DNo-SQL DBMS - IF4040
 > Tugas 1: Relational DBMS vs Document No-SQL DBMS
+> Tugas 2: Relational DBMS vs Column-based No-SQL DBMS
 
 ## Table of Contents
 * [Deskripsi Singkat](#deskripsi-singkat)
@@ -8,7 +9,7 @@
 * [Referensi](#referensi)
 
 ## Deskripsi Singkat 
-Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional, dalam hal ini PostgreSQL, dengan DBMS Document, CouchDB. Analisis dilakukan dengan menggunakan 5 query read dan 5 query manipulasi (Insert, Update, Delete)
+Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional, dalam hal ini PostgreSQL, dengan No SQL Database. Analisis dilakukan dengan menggunakan 5 query read dan 5 query manipulasi (Insert, Update, Delete)
 
 ## Detail Data
 | No. | Nama Relasi/ Tabel |Jumlah Data |
@@ -22,6 +23,20 @@ Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional
 | 7 | Songs | 500.961 rows | 
 | 8 | Transaction_albums | 5.000.000 rows |
 | 9 | Transactions | 2.000.000 rows |
+
+Lite version
+| No. | Nama Relasi/ Tabel |Jumlah Data |
+|-----|--------------------|------------|
+| 1 | Albums | 49.892 rows | 
+| 2 | Companies | 50.000 rows |
+| 3 | Countries | 195 rows | 
+| 4 | Customers | 50.000 rows | 
+| 5 | Groups | 48.796 rows | 
+| 6 | Idols | 50.000 rows | 
+| 7 | Songs | 50.000 rows | 
+| 8 | Transaction_albums | 12.446 rows |
+| 9 | Transactions | 50.000 rows |
+
 
 
 
@@ -51,5 +66,7 @@ Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional
 
 ## Referensi
 * [Google Drive](https://drive.google.com/drive/u/0/folders/1sHOpGPVtIi7grO8wdq9m345S4rVI66i-)
-* [Dokumentasi Google Docs](https://docs.google.com/document/d/1XbbRzJC3lsLeF3C5nAoOXkIe-h2oPwyoNWRdtbm43us/edit?tab=t.0)
-* [Dokumentasi Google Slides](https://docs.google.com/presentation/d/1m3-1Wq5wlQHsEwnU6MK63e94_mIaHdBp744wXB1g90U/edit#slide=id.gd206afaa83_0_0)
+* [Dokumentasi Google Docs - Tugas 1](https://docs.google.com/document/d/1XbbRzJC3lsLeF3C5nAoOXkIe-h2oPwyoNWRdtbm43us/edit?tab=t.0)
+* [Dokumentasi Google Slides - Tugas 1](https://docs.google.com/presentation/d/1m3-1Wq5wlQHsEwnU6MK63e94_mIaHdBp744wXB1g90U/edit#slide=id.gd206afaa83_0_0)
+* [Dokumentasi Google Docs - Tugas 2](https://docs.google.com/document/d/1WQQjjf_0xcKQbbzVs3hRO1secPBNqwMJqXlMmgwZ1YQ/edit?tab=t.0)
+* [Dokumentasi Google Slides - Tugas 2](https://docs.google.com/presentation/d/1gJfj0eoN3zyVl5pNsr8LSdivDjTMWnpyIG6-f4AmHzA/edit#slide=id.gd206afaa83_0_0)

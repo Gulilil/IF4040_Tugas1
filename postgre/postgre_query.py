@@ -5,6 +5,7 @@ from postgre_queries_constant import *
 import pandas as pd
 import numpy as np
 import time
+import datetime
 
 load_dotenv()
 
@@ -170,19 +171,19 @@ if __name__ == "__main__":
   for i in range(len(QUERY_LIST)):
     print(f"QUERY {i+1}")
     # Start time
-    start = time.time() 
+    start = datetime.datetime.now()
 
     if (i < 5):
       result = execute_query_return(QUERY_LIST[i])
     else:
-      result = execute_query(QUERY_LIST[i])    
+      execute_query(QUERY_LIST[i])    
 
 
     # End time
-    end = time.time()
-    duration = int(end-start)
+    end = datetime.datetime.now()
+    duration = end-start
 
     print(result)
 
-    print(f"Execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
+    print(f"Execution time (in microseconds): {duration.microseconds}")
     
