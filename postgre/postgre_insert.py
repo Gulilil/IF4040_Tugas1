@@ -4,6 +4,7 @@ import os
 from postgre_queries_constant import *
 import pandas as pd
 import numpy as np
+import time
 
 load_dotenv()
 
@@ -99,7 +100,7 @@ def construct_insert_queries(table: str, df: pd.DataFrame):
           col_string += f"{cols[i]}, "
     finalized_col_string = f"({col_string})"
         
-    amount = 50000
+    amount = 10000
     i = 0
     while (i*amount < len(df)):
       values_string = ""
@@ -134,21 +135,22 @@ def construct_insert_queries(table: str, df: pd.DataFrame):
     return
 
 if __name__ == "__main__":
+
+  # Bikin dulu database kpopnyaa `CREATE DATABASE kpop` di local
   
-  # # Create TYPE ENUM
-  # TYPE_QUERIES = [GROUPS_TYPE_ENUM, IDOLS_GENDER_ENUM, TRANSACTIONS_STATUS_ENUM]
-  # for query in TYPE_QUERIES:
-  #   result = execute_query(query)
-  #   print(result)
+  # Create TYPE ENUM
+  TYPE_QUERIES = [GROUPS_TYPE_ENUM, IDOLS_GENDER_ENUM, TRANSACTIONS_STATUS_ENUM]
+  for query in TYPE_QUERIES:
+    execute_query(query)
 
-  # # Create TABLES
-  # CREATE_TABLE_QUERIES = [COUNTRIES_CREATE, COMPANIES_CREATE, GROUPS_CREATE, IDOLS_CREATE,  ALBUMS_CREATE, SONGS_CREATE, CUSTOMERS_CREATE, TRANSACTIONS_CREATE, TRANSACTION_ALBUMS_CREATE]
-  # for query in CREATE_TABLE_QUERIES:
-  #   result = execute_query(query)
-  #   print(result)
-
+  # Create TABLES
+  CREATE_TABLE_QUERIES = [COUNTRIES_CREATE, COMPANIES_CREATE, GROUPS_CREATE, IDOLS_CREATE,  ALBUMS_CREATE, SONGS_CREATE, CUSTOMERS_CREATE, TRANSACTIONS_CREATE, TRANSACTION_ALBUMS_CREATE]
+  for query in CREATE_TABLE_QUERIES:
+    execute_query(query)
+  
   data_list = ['countries', 'companies', 'groups', 'idols', 'albums', 'songs', 'customers', 'transactions', 'transaction_albums']
-  for data_name in data_list[-1:]:
+  for data_name in data_list:
       data_path = os.path.join(DATA_FINAL_DIR, f"{data_name}.csv")
       df = pd.read_csv(data_path)
       construct_insert_queries(data_name, df)
+      # time.sleep(1)
