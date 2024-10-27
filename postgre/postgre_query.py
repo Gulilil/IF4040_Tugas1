@@ -174,8 +174,8 @@ if __name__ == "__main__":
 
     if (i < 5):
       result = execute_query_return(QUERY_LIST[i])
-    else:
-      result = execute_query(QUERY_LIST[i])    
+    # else:
+    #   execute_query(QUERY_LIST[i])    
 
 
     # End time
