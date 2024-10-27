@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS albums (
     price INT,
     group_id INT,
     group_name VARCHAR
-    transaction_albums LIST<FROZEN<tuple<INT, INT>>>, 
+    transaction_albums MAP<INT, INT>, 
     songs LIST<INT> 
 );
 

@@ -7,9 +7,17 @@ from collections import defaultdict
 cluster = Cluster(['127.0.0.1'], port=9042)  # Adjust IP if necessary
 session = cluster.connect("pedal")
 
-# Helper function to parse date strings
+# Helper function to parse date strings with time
 def parse_date(date_str):
-    return datetime.strptime(date_str, '%Y-%m-%d').date() if date_str else None
+    if not date_str:
+        return None
+    try:
+        date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
+    except ValueError:
+        # If only the date is provided, format directly
+        date = datetime.strptime(date_str, '%Y-%m-%d')
+    
+    return date.strftime('%Y-%m-%d')
 
 # Helper function to safely convert a string to an integer, using 0 if empty
 def safe_int(value):
@@ -39,8 +47,9 @@ def load_transaction_albums(filepath):
             quantity = safe_int(row['quantity'])
             transaction_album_map[transaction_id][album_id] = quantity
     return transaction_album_map
+
 # Seed transactions table with combined data, with a limit of 50,000 rows
-def seed_transactions(transactions_filepath, albums_filepath, transaction_albums_filepath, limit=50000):
+def seed_transactions(transactions_filepath, albums_filepath, transaction_albums_filepath):
     # Load associated data from other CSV files
     album_map = load_albums(albums_filepath)
     transaction_album_map = load_transaction_albums(transaction_albums_filepath)
@@ -52,11 +61,6 @@ def seed_transactions(transactions_filepath, albums_filepath, transaction_albums
     with open(transactions_filepath, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
-            # Stop if the row limit is reached
-            if row_count >= limit:
-                print(f"Reached row limit of {limit}. Stopping further insertions.")
-                break
-
             # Parse individual fields from the transactions CSV row
             transaction_id = safe_int(row['id'])
             transaction_date = parse_date(row['transaction_date'])
@@ -85,6 +89,7 @@ def seed_transactions(transactions_filepath, albums_filepath, transaction_albums
 
             # Increment the row counter
             row_count += 1
+            print(row_count)
 
     print(f"Data for 'transactions' table has been seeded successfully. Total rows inserted: {row_count}")
 
@@ -94,4 +99,4 @@ albums_filepath = 'cleaned/albums.csv'
 transaction_albums_filepath = 'cleaned/transaction_albums.csv'
 
 # Run the seeding function with the 50,000 row limit
-seed_transactions(transactions_filepath, albums_filepath, transaction_albums_filepath, limit=50000)
+seed_transactions(transactions_filepath, albums_filepath, transaction_albums_filepath)

@@ -1,11 +1,11 @@
 import csv
 
 # Path to the CSV file
-input_file = 'data/idols.csv'
-output_file = 'cleaned/idols.csv'
+input_file = 'data/transactions.csv'
+output_file = 'cleaned/transactions.csv'
 
 # Column that needs cleaning
-bigint_columns = ['group_id']  # Add other columns if needed
+bigint_columns = ['id']  # Add other columns if needed
 
 # Read and clean the data
 with open(input_file, mode='r', encoding='utf-8') as infile, open(output_file, mode='w', newline='', encoding='utf-8') as outfile:

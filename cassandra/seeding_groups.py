@@ -9,7 +9,7 @@ session = cluster.connect("pedal")
 
 # Helper function to parse date strings
 def parse_date(date_str):
-    return datetime.strptime(date_str, '%Y-%m-%d').date() if date_str else None
+    return datetime.strptime(date_str, '%Y-%m-%d').strftime('%Y-%m-%d') if date_str else None
 
 # Helper function to safely convert a string to an integer, using 0 if empty
 def safe_int(value):
@@ -57,10 +57,6 @@ def seed_groups(groups_filepath, idols_filepath, albums_filepath, limit=50000):
     with open(groups_filepath, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
-            # Stop if the row limit is reached
-            if row_count >= limit:
-                print(f"Reached row limit of {limit}. Stopping further insertions.")
-                break
 
             # Parse individual fields from the groups CSV row
             group_id = safe_int(row['id'])
