@@ -144,7 +144,7 @@ WHERE transaction_id IN (
 
 
 DELETE FROM transactions
-WHERE status = 'cancelled' AND transaction_date < DATE_SUB(NOW(), INTERVAL '1 YEAR');
+WHERE status = 'cancelled' AND transaction_date < NOW() - INTERVAL '1 year';
 """
 
 QUERY_9 = """DELETE FROM idols
@@ -155,14 +155,13 @@ WHERE id NOT IN (
 );
 """
 
-QUERY_10 = """INSERT INTO transactions (transaction_date, status, customer_id)
-VALUES ('2024-02-01', 'paid', 10);
+QUERY_10 = """INSERT INTO transactions (id, transaction_date, status, customer_id)
+VALUES (50000,'2024-02-01', 'paid', 10);
 
-EXPLAIN ANALYZE
 INSERT INTO transaction_albums (album_id, transaction_id, quantity)
 VALUES 
-(1, 2000000, 2),
-(2, 2000000, 1);
+(1, 50000, 2),
+(2, 50000, 1);
 """
 
 if __name__ == "__main__":
@@ -173,17 +172,14 @@ if __name__ == "__main__":
     # Start time
     start = datetime.datetime.now()
 
-    if (i < 5):
+    if (i in [8,10]):
       result = execute_query_return(QUERY_LIST[i])
-    else:
-      execute_query(QUERY_LIST[i])    
+      print(result)
 
 
     # End time
     end = datetime.datetime.now()
     duration = end-start
-
-    print(result)
 
     print(f"Execution time (in microseconds): {duration.microseconds}")
     
