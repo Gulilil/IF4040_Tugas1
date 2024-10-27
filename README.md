@@ -1,4 +1,4 @@
-# TUGAS BESAR Relational DBMS vs DNo-SQL DBMS - IF4040
+# Tugas Besar Relational DBMS vs No-SQL DBMS - IF4040
 
 ## Table of Contents
 * [Milestone Pengerjaan](#milestone-pengerjaan)
