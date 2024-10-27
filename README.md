@@ -1,17 +1,23 @@
 # TUGAS BESAR Relational DBMS vs DNo-SQL DBMS - IF4040
-> Tugas 1: Relational DBMS vs Document No-SQL DBMS
-> Tugas 2: Relational DBMS vs Column-based No-SQL DBMS
 
 ## Table of Contents
+* [Milestone Pengerjaan](#milestone-pengerjaan)
 * [Deskripsi Singkat](#deskripsi-singkat)
 * [Detail Data](#detail-data)
+* [Diagram Data](#diagram-data)
 * [Anggota Kelompok](#anggota-kelompok)
 * [Referensi](#referensi)
+
+## Milestone Pengerjaan
+* **Tugas 1: Relational DBMS vs Document No-SQL DBMS**
+* **Tugas 2: Relational DBMS vs Column-based No-SQL DBMS**
 
 ## Deskripsi Singkat 
 Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional, dalam hal ini PostgreSQL, dengan No SQL Database. Analisis dilakukan dengan menggunakan 5 query read dan 5 query manipulasi (Insert, Update, Delete)
 
 ## Detail Data
+
+### Full Data
 | No. | Nama Relasi/ Tabel |Jumlah Data |
 |-----|--------------------|------------|
 | 1 | Albums | 500.203 rows | 
@@ -24,7 +30,7 @@ Program ini dibuat untuk melakukan analisis perbandingan kinerja DBMS Relasional
 | 8 | Transaction_albums | 5.000.000 rows |
 | 9 | Transactions | 2.000.000 rows |
 
-Lite version
+### Sampled Data
 | No. | Nama Relasi/ Tabel |Jumlah Data |
 |-----|--------------------|------------|
 | 1 | Albums | 49.892 rows | 
@@ -37,8 +43,19 @@ Lite version
 | 8 | Transaction_albums | 12.446 rows |
 | 9 | Transactions | 50.000 rows |
 
+## Diagram Data
 
+### ERD (*Entity Relationship Diagram*)
+![ERD](assets/erd.png)
 
+### Diagram Relasional
+![Relational Diagram](assets/relational.png)
+
+### Visualisasi Document DBMS
+![Document DBMS Visualization](assets/document.png)
+
+### Visualisasi Column-Based DBMS 
+![Column-Based DBMS Visualization](assets/column-based.png)
 
 ## Anggota Kelompok
 <table>
