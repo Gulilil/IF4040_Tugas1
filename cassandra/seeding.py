@@ -15,16 +15,17 @@ def parse_date(date_str):
 def safe_int(value):
     return int(value) if value else 0
 
-# Load transaction_albums data and organize by album_id
+# Load transaction_albums data and organize by album_id as a map<int, int>
 def load_transaction_albums(filepath):
-    transaction_map = defaultdict(list)
+    transaction_map = defaultdict(dict)  # Defaultdict with dict to store map<int, int>
     with open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
             album_id = safe_int(row['album_id'])
             transaction_id = safe_int(row['transaction_id'])
             quantity = safe_int(row['quantity'])
-            transaction_map[album_id].append((transaction_id, quantity))
+            # Store each transaction_id and quantity as a map for the album_id
+            transaction_map[album_id][transaction_id] = quantity
     return transaction_map
 
 # Load songs data and organize by album_id
@@ -72,8 +73,8 @@ def seed_albums(albums_filepath, transaction_albums_filepath, songs_filepath, gr
             price = safe_int(row['price'])
             group_name = group_map.get(group_id, "Unknown")  # Look up group_name by group_id
 
-            # Get associated transaction_albums and songs data
-            transaction_albums = transaction_map.get(album_id, [])
+            # Get associated transaction_albums as a map and songs as a list
+            transaction_albums = transaction_map.get(album_id, {})
             songs = songs_map.get(album_id, [])
 
             # Construct the insert query
@@ -81,8 +82,6 @@ def seed_albums(albums_filepath, transaction_albums_filepath, songs_filepath, gr
             INSERT INTO albums (id, title, release_date, type, duration, genre, stock, price, group_id, group_name, transaction_albums, songs)
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """
-
-            print(transaction_albums)
 
             # Execute the query with combined data
             session.execute(query, (

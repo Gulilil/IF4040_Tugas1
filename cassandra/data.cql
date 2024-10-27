@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS transactions (
     transaction_date DATE,
     status VARCHAR,
     customer_id INT,
-    transaction_albums LIST<FROZEN<tuple<INT, INT, VARCHAR, INT>>>
+    transaction_albums MAP<INT, TEXT>
 );
 
 -- Create table for groups
@@ -60,8 +60,8 @@ CREATE TABLE IF NOT EXISTS groups (
     fanclub_name VARCHAR,
     active BOOLEAN,
     type VARCHAR,
-    idols LIST<FROZEN<tuple<INT, VARCHAR, VARCHAR, INT, VARCHAR>>>,
-    albums LIST<FROZEN<tuple<INT, VARCHAR>>>
+    idols MAP<INT, TEXT>,
+    albums MAP<INT, VARCHAR>
 );
 
 
